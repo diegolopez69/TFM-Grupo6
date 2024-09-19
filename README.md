@@ -31,14 +31,16 @@ El proyecto se divide en una serie de notebooks, cada uno con un propósito espe
 6. **6_Modelos.ipynb**:
    - Desarrollo de modelos predictivos utilizando técnicas de clasificación y regresión.
    - Evaluación de modelos mediante métricas como AUC, ROC y matrices de confusión.
+  
+7. **7_Modelo_Complejo.ipynb**:
+   - Desarrollo de un modelo más complejo utilizando técnicas avanzadas como SHAP para interpretar la importancia de las variables.
+   - Optimización y ajuste de hiperparámetros para mejorar la precisión y generalización del modelo.
 
-7. **8_llm.ipynb**:
+8. **8_llm.ipynb**:
    - Implementación de un modelo de lenguaje (LLM) para la consulta y análisis de datos textuales.
    - Uso de embeddings y modelos pre-entrenados para responder a preguntas específicas sobre las patentes.
 
-8. **Modelo_Complejo.ipynb**:
-   - Desarrollo de un modelo más complejo utilizando técnicas avanzadas como SHAP para interpretar la importancia de las variables.
-   - Optimización y ajuste de hiperparámetros para mejorar la precisión y generalización del modelo.
+
 
 ## Instalación y Requerimientos
 
