@@ -70,12 +70,20 @@ pip install -r requirements.txt
 
 2. **Paso 2**: Ejecutar cada notebook en el orden indicado para reproducir el flujo completo de análisis:
    - 1_Retrieve Application Numbers.ipynb
-- 2_Bajar_HTMLS.ipynb
-- 3_Webscrapping.ipynb
-- 4_Preprocesado.ipynb
-- 5_EDA.ipynb
-- 6_Modelos.ipynb
-- 8_llm.ipynb (opcional, para consultas avanzadas)
-- Modelo_Complejo.ipynb
+   - 2_Bajar_HTMLS.ipynb
+   - 3_Webscrapping.ipynb
+   - 4_Preprocesado.ipynb
+   - 5_EDA.ipynb
+   - 6_Modelos.ipynb
+   - 8_llm.ipynb (opcional, para consultas avanzadas)
+   - Modelo_Complejo.ipynb
 
 3. **Paso 3**: Verificar los resultados en cada etapa para asegurarse de que el flujo se ejecute correctamente.
+
+## Resultados
+El modelo final alcanzó un AUC de 0.85 en la fase de clasificación y un error cuadrático medio (MSE) de 0.07 en la fase de regresión. Estos resultados indican una capacidad significativa para predecir el riesgo de revocación de las patentes.
+
+## Consideraciones Finales
+   - **Limitaciones:** La cantidad limitada de datos disponibles podría afectar la capacidad de generalización del modelo.
+   - **Mejoras Futuras:** Incorporar más datos históricos y aplicar técnicas de Deep Learning para mejorar la precisión predictiva.
+   - **Mayores recursos** Implementar el RAG en un ordenador con mayor capacidad de procesamiento para obtener mejores resultados.
