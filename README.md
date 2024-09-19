@@ -80,8 +80,6 @@ pip install -r requirements.txt
 
 3. **Paso 3**: Verificar los resultados en cada etapa para asegurarse de que el flujo se ejecute correctamente.
 
-## Resultados
-El modelo final alcanzó un AUC de 0.85 en la fase de clasificación y un error cuadrático medio (MSE) de 0.07 en la fase de regresión. Estos resultados indican una capacidad significativa para predecir el riesgo de revocación de las patentes.
 
 ## Consideraciones Finales
    - **Limitaciones:** La cantidad limitada de datos disponibles podría afectar la capacidad de generalización del modelo.
