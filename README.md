@@ -58,3 +58,24 @@ Puedes instalar todas las dependencias necesarias ejecutando el siguiente comand
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Ejemplo de Ejecución
+
+1. **Paso 1**: Clonar el repositorio y navegar al directorio del proyecto.
+   ```bash
+   git clone https://github.com/tuusuario/tfm-patentes.git
+   cd tfm-patentes
+   ```
+
+2. **Paso 2**: Ejecutar cada notebook en el orden indicado para reproducir el flujo completo de análisis:
+   - 1_Retrieve Application Numbers.ipynb
+- 2_Bajar_HTMLS.ipynb
+- 3_Webscrapping.ipynb
+- 4_Preprocesado.ipynb
+- 5_EDA.ipynb
+- 6_Modelos.ipynb
+- 8_llm.ipynb (opcional, para consultas avanzadas)
+- Modelo_Complejo.ipynb
+
+3. **Paso 3**: Verificar los resultados en cada etapa para asegurarse de que el flujo se ejecute correctamente.
